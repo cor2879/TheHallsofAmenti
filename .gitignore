@@ -1,0 +1,26 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local research collections, processing output, and backups
+/data/
+/storage/
+/uploads/
+/backups/
+/tmp/
+*.dump
+*.backup
+*.log
+
+# Common generated development files
+node_modules/
+dist/
+build/
+bin/
+obj/
+.venv/
+__pycache__/
+.DS_Store
